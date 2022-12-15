@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Disaster sentence Predictor</title>
+</head>
+<body class="bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r">
+    <!-- <h1 class="flex flex-col items-align text-center text-5xl text-white mt-16">MA Project</h1> -->
+    <h1 class="flex flex-col items-align text-center text-4xl text-white mt-16">Disaster Sentence Predictor </h1>
+    <!-- <h1 class="flex flex-col items-align text-center text-3xl text-white mt-12"> U1910033 Saidkarim Yuldashev </h4> -->
+    <!-- <h1 class="flex flex-col items-align text-center text-3xl text-white mt-4"> U1910007 Saidakbar Zafarov </h4>
+    <h1 class="flex flex-col items-align text-center text-3xl text-white mt-4"> U1910101 Akbarbek Rakhmatullaev </h4> -->
+    <div class="flex flex-col items-align text-center">
+        <form class="mt-32" action = "/success" method = "post" enctype="multipart/form-data"> 
+        <label class=" hover:drop-shadow-2xl hover:-translate-y-1 hover:scale-150 hover: duration-300 text-white font-bold py-2 px-4 cursor-pointer rounded w-24 mx-auto">
+            <input name="text_box" type='text'class="w-[500px] h-[50px] p-4 border-[3px] rounded-xl border-blue-700 text-black" placeholder="Write a sentence to predict..." />
+                <label class="bg-blue-700 hover:drop-shadow-2xl hover:-translate-y-1 hover:scale-150 hover: duration-300 text-white font-bold py-2 px-4 cursor-pointer rounded w-24 mx-auto">
+                    <span class=" mt-2 text-base leading-normal">Predict</span>
+                    <input type = "submit" class="hidden">
+                </label>
+            </label>
+        </form>
+        
+        <br><br><br>
+        
+
+    </div>
+</body>
+</html>
