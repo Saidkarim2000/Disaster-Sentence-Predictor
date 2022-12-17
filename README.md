@@ -1,7 +1,7 @@
 # Introduction
 
 Disaster Sentence Predictor. It can analyze and distinguish required
-set of contexts from given texts. Natural Language Processing with Disaster Tweets
+set of contexts from given texts. Natural Language Processing with Disaster Tweets dataset
 allows to identify whether Tweets are about real disasters and which ones are no.
 Altough, it's not necessary about only Tweets, but about text in general, with Tweets,
 and similar by type social medias, it can be maximally useful.
